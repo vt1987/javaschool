@@ -1,6 +1,6 @@
-package week4;
+package week4.domain;
 
-public class Main {
+public class MainOld {
     public static void main(String[] args) {
         RegistrationForm r1 = new RegistrationForm("Valentina", "Tonko");
 //        r1.firstName = "Valentina";
