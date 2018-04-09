@@ -17,7 +17,7 @@ public abstract class Aircraft implements FlyingObject {
 
     @Override
     public String toString() {
-        return String.format("Aircraft Type: %s. Max Speed: %d MpH.",
-                this.getClass().getName(), maxSpeed);
+        return String.format("Aircraft Type: %s. Max Speed: %s MpH.",
+                this.getClass().getSimpleName(), maxSpeed);
     }
 }
